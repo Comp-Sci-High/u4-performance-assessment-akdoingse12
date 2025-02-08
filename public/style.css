@@ -1,4 +1,5 @@
 /* styles.css */
+/* styles.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -37,7 +38,7 @@ nav a {
     padding: 50px 20px;
 }
 
-.reviews {
+.reviews, .hangout-spots {
     padding: 20px;
     background: #fff;
     margin: 20px;
@@ -45,12 +46,19 @@ nav a {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.review {
+.review, .spot {
     margin-bottom: 15px;
 }
 
-.review a {
+.review a, .spot a {
     text-decoration: none;
     color: #0073e6;
     font-weight: bold;
+}
+
+.spot img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
